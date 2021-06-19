@@ -1,7 +1,7 @@
 // countdown timer
 function countdown() {
     // important dates
-    const endDate = new Date('June 18, 2021 12:00').getTime();
+    const endDate = new Date('August 15, 2021 12:00').getTime();
     const presentDate = new Date().getTime();
     const gap = endDate - presentDate;
     // time units
